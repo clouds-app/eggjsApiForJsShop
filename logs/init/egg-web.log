@@ -1,0 +1,14 @@
+2020-07-21 22:15:09,985 INFO 29027 [egg:logger] init all loggers with options: {"dir":"/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/logs/init","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"init-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-07-21 22:15:10,005 INFO 29027 [egg-multipart] stream mode enable
+2020-07-21 22:15:10,042 INFO 29027 [egg-static] starting static serve /public/ -> /Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/app/public
+2020-07-21 22:15:10,044 INFO 29027 [egg-security] use csrf middleware
+2020-07-21 22:15:10,045 INFO 29027 [egg-security] use methodnoallow middleware
+2020-07-21 22:15:10,045 INFO 29027 [egg-security] use noopen middleware
+2020-07-21 22:15:10,046 INFO 29027 [egg-security] use nosniff middleware
+2020-07-21 22:15:10,046 INFO 29027 [egg-security] use xssProtection middleware
+2020-07-21 22:15:10,046 INFO 29027 [egg-security] use xframe middleware
+2020-07-21 22:15:10,047 INFO 29027 [egg-security] use dta middleware
+2020-07-21 22:15:10,047 INFO 29027 [egg-security] compose 7 middlewares into one security middleware
+2020-07-21 22:15:10,053 INFO 29027 [egg:core] dump config after load, 3ms
+2020-07-21 22:15:10,063 INFO 29027 [egg-watcher:application] watcher start success
+2020-07-21 22:15:10,067 INFO 29027 [egg:core] dump config after ready, 3ms
