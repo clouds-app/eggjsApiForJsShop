@@ -33,8 +33,42 @@ class HomeController extends BaseController {
     ctx.body = JSON.stringify(ctx);
   }
   async api() {
+	// {mobile: "1111", password: "1111", method: "user.login"}
 	let requestData = this.ctx.request.body
-    this.message(requestData, "返回数据");
+	let method = requestData.method
+	if(!!method){
+
+	   let paramsList = method.split('.');
+	   let serviceName = paramsList[0]
+	   let methodName = paramsList[1]
+	   try{
+			let errMessage=''
+			if(!!this.service[serviceName]){
+				//this.message(true, 'serviceName执行成功!');
+			}else{
+				errMessage ='serviceName执行失败!'
+				return;
+			}
+			if(!!this.service[serviceName][methodName]){
+				//this.message(true, 'methodName执行成功!');
+			}else{
+				errMessage ='methodName执行失败!'
+				return;
+			}
+			if(!!errMessage){
+			    this.message(false, errMessage);
+			}else{
+			    let handleMethod = await this.service[serviceName][methodName](requestData);
+				this.message(!!handleMethod, '执行成功!');
+			}
+ 
+	   }catch(e){
+	     this.message(false, '参数错误!'+JSON.stringify(requestData));
+	   }
+	 
+	 
+	}
+   
   }
 }
 
