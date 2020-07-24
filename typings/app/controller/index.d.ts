@@ -2,10 +2,12 @@
 // Do not modify this file!!!!!!!!!
 
 import 'egg';
+import ExportBase = require('../../../app/controller/base');
 import ExportHome = require('../../../app/controller/home');
 
 declare module 'egg' {
   interface IController {
+    base: ExportBase;
     home: ExportHome;
   }
 }

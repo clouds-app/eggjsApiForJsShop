@@ -1,0 +1,51 @@
+2020-07-22 13:39:41,576 ERROR 19572 nodejs.ClusterClientNoResponseError: client no response in 3613350ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Nodejs\eggjsApiForJsShop\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 19572
+hostname: CLCSDN
+
+2020-07-22 17:40:14,578 ERROR 19572 nodejs.ClusterClientNoResponseError: client no response in 3951261ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Nodejs\eggjsApiForJsShop\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 19572
+hostname: CLCSDN
+
+2020-07-23 11:29:13,583 ERROR 17816 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 17816
+hostname: CLCSDN
+
+2020-07-23 13:36:59,583 ERROR 17816 nodejs.ClusterClientNoResponseError: client no response in 1830883ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\Nodejs\eggjsApiForJsShop\node_modules\_cluster-client@3.0.1@cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 17816
+hostname: CLCSDN
+
+2020-07-23 13:57:59,444 ERROR 17816 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 17816
+hostname: CLCSDN
+
+2020-07-23 17:23:03,485 ERROR 17816 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:201:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 17816
+hostname: CLCSDN
+

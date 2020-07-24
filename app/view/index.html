@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="icon" href="/public/images/favicon.ico">
+    <title>index 页面</title>
+</head>
+<body>
+    <h1>hello huangbaokang:<%=apiUrl%></h1> 
+	<%=data%>
+		<ul>
+			<% for(let i=0;i<list.length;i++){%>
+			<li><%=list[i]%></li>
+			<%}%>
+		</ul>
+</body>
+</html>

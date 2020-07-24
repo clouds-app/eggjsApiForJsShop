@@ -1,293 +1,307 @@
 {
-  "keys": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/config/config.default.js",
-  "middleware": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/config/config.default.js",
-  "session": {
-    "maxAge": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js",
-    "key": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js",
-    "httpOnly": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js",
-    "encrypt": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js"
+  "customSetting": {
+    "apiUrl": "E:\\Nodejs\\eggjsApiForJsShop\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
     "csrf": {
-      "enable": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "type": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "useSession": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "cookieName": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "sessionName": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "headerName": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "bodyName": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "queryName": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "refererWhiteList": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+      "enable": "E:\\Nodejs\\eggjsApiForJsShop\\config\\config.default.js",
+      "type": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "useSession": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "cookieName": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "sessionName": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "headerName": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "bodyName": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "queryName": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "refererWhiteList": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
     },
+    "domainWhiteList": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
     "xframe": {
-      "enable": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "value": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+      "enable": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.local.js",
-      "maxAge": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+      "enable": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.local.js",
+      "maxAge": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+      "enable": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+      "enable": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+      "enable": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+      "enable": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "value": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+      "enable": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "value": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+      "enable": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "value": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "policy": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+      "enable": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "policy": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
-      "checkAddress": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+      "ipBlackList": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
     }
   },
+  "view": {
+    "mapping": {
+      ".html": "E:\\Nodejs\\eggjsApiForJsShop\\config\\config.default.js"
+    },
+    "root": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "cache": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js"
+  },
+  "keys": "E:\\Nodejs\\eggjsApiForJsShop\\config\\config.default.js",
+  "middleware": "E:\\Nodejs\\eggjsApiForJsShop\\config\\config.default.js",
+  "session": {
+    "maxAge": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
+    "key": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js",
+    "encrypt": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-session@3.2.0@egg-session\\config\\config.default.js"
+  },
   "helper": {
-    "shtml": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    "shtml": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-security@2.8.0@egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
-    "callback": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
-    "csrf": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+    "limit": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
-    "templatePath": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+    "errorPageUrl": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "dirs": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "queryField": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "cookieField": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "cookieDomain": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
+    "defaultLocale": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieDomain": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.local.js",
+    "type": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.default.js",
-      "development": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.default.js"
+      "default": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js",
+      "development": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-watcher@3.1.1@egg-watcher\\config\\config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js",
-      "file": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+      "consoleLevel": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js",
+      "file": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js"
     }
   },
   "schedule": {
-    "directory": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+    "directory": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js"
   },
   "multipart": {
-    "mode": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "autoFields": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "fields": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "fileSize": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "files": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "whitelist": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "mode": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "autoFields": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fields": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "files": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
+    "tmpdir": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js",
     "cleanSchedule": {
-      "cron": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js"
+      "cron": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-multipart@2.10.3@egg-multipart\\config\\config.default.js"
     }
   },
   "development": {
-    "watchDirs": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-development@2.5.0@egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-development@2.5.0@egg-development/config/config.default.js",
-    "fastReady": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-development@2.5.0@egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-development@2.5.0@egg-development/config/config.default.js",
-    "overrideDefault": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-development@2.5.0@egg-development/config/config.default.js"
+    "watchDirs": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-development@2.5.0@egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-development@2.5.0@egg-development\\config\\config.default.js",
+    "fastReady": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-development@2.5.0@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-development@2.5.0@egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-development@2.5.0@egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "dir": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "dynamic": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "preload": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "buffer": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
-    "maxFiles": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+    "prefix": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dir": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dynamic": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "preload": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "buffer": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
   },
-  "view": {
-    "root": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
-    "cache": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
-    "defaultExtension": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
-    "mapping": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+  "ejs": {
+    "root": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "cache": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.local.js",
+    "debug": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "compileDebug": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "delimiter": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js",
+    "strict": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg-view-ejs@2.0.1@egg-view-ejs\\config\\config.default.js"
   },
-  "env": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-  "name": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-  "cookies": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-  "proxy": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-  "maxIpsCount": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-  "maxProxyCount": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-  "protocolHeaders": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-  "ipHeaders": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-  "hostHeaders": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
+  "env": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "name": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "cookies": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "proxy": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "maxIpsCount": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "maxProxyCount": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "ipHeaders": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "hostHeaders": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
   "pkg": {
-    "name": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "version": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "description": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "private": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
+    "name": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "version": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "description": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "private": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
     "egg": {
-      "declarations": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+      "declarations": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
     "dependencies": {
-      "egg": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "egg-scripts": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+      "egg": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-scripts": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-view-ejs": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "autod": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "autod-egg": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "egg-bin": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "egg-ci": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "egg-mock": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "eslint": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "eslint-config-egg": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+      "autod": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "autod-egg": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-bin": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-ci": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "egg-mock": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "eslint": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "eslint-config-egg": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
     "engines": {
-      "node": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+      "node": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
     "scripts": {
-      "start": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "stop": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "dev": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "debug": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "test": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "test-local": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "cov": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "lint": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "ci": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "autod": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+      "start": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "stop": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "dev": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "debug": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "test": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "test-local": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "cov": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "lint": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "ci": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "autod": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
     "ci": {
-      "version": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+      "version": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
     "repository": {
-      "type": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "url": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+      "type": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "url": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
-    "author": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "license": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+    "author": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "license": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
   },
-  "baseDir": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-  "HOME": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-  "rundir": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
+  "baseDir": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "HOME": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "rundir": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
   "dump": {
-    "ignore": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+    "ignore": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "notFound": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "sitefile": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "middlewares": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "httpClient": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+    "bodyparser": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "notFound": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "sitefile": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "middlewares": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "httpClient": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+    "pageUrl": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+    "/favicon.ico": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "encoding": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "formLimit": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "jsonLimit": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "textLimit": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "strict": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
+    "enable": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "encoding": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "formLimit": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "jsonLimit": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "textLimit": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "strict": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "depth": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "parameterLimit": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+      "arrayLimit": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "depth": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "parameterLimit": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
-    "onerror": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+    "onerror": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
   },
   "logger": {
-    "dir": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "encoding": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "env": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "level": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "consoleLevel": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "outputJSON": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "buffer": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "appLogName": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "coreLogName": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "agentLogName": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "errorLogName": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
+    "dir": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "encoding": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "env": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "level": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "consoleLevel": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "outputJSON": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "buffer": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "appLogName": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "coreLogName": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "agentLogName": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "errorLogName": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.local.js"
+      "consoleLevel": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+    "allowDebugAtProd": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "dnsCacheLookupInterval": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
+    "enableDNSCache": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
     "request": {
-      "timeout": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+      "timeout": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "maxSockets": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "maxFreeSockets": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+      "keepAlive": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "maxSockets": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "maxSockets": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "maxFreeSockets": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+      "keepAlive": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "maxSockets": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "logging": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+    "enable": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "logging": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
   },
-  "coreMiddleware": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-  "workerStartTimeout": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-  "serverTimeout": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
+  "coreMiddleware": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+  "serverTimeout": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "port": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-      "hostname": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+      "path": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "port": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+      "hostname": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js",
-    "responseTimeout": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+    "maxWaitTime": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js",
+    "responseTimeout": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
   },
-  "onClientError": "/Users/dkhuang/Documents/nodeService/eggjsApiForJsShop/node_modules/_egg@2.27.0@egg/config/config.default.js"
+  "onClientError": "E:\\Nodejs\\eggjsApiForJsShop\\node_modules\\_egg@2.27.0@egg\\config\\config.default.js"
 }
